@@ -1,0 +1,31 @@
+section{
+    text-align: center;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+div{
+    width: 13%;
+    height: 20vh;
+    box-shadow: 0px 0px 4px rgb(177, 177, 177);
+    margin: 10px;
+    transition: 0.2s;
+}
+div:hover{
+    box-shadow: 0px 0px 30px rgb(155, 155, 155);
+    transition: 0.2s;
+    
+}
+button{
+    background-color: rgb(17, 190, 202);
+    box-shadow: 0px 0px 4px rgb(141, 141, 141);
+    padding: 10px 30px;
+    font-size: 1em;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(13, 144, 153);
+    box-shadow: 0px 0px 10px rgb(141, 141, 141);
+    transition: 0.2s;
+}
